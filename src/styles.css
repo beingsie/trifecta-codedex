@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: all 0.369s ease;
+}
+
+body {
+  font-family: "Heebo", sans-serif;
+  perspective: 340px;
+}
+
+/* Colors */
+.bg-navy-500 {
+  background: rgb(15, 21, 36);
+  background: -moz-linear-gradient(0deg, rgba(15, 21, 36, 1) 0%, rgba(46, 38, 81, 1) 11%, rgba(46, 38, 81, 1) 100%);
+  background: -webkit-linear-gradient(0deg, rgba(15, 21, 36, 1) 0%, rgba(46, 38, 81, 1) 11%, rgba(46, 38, 81, 1) 100%);
+  background: linear-gradient(0deg, rgba(15, 21, 36, 1) 0%, rgba(46, 38, 81, 1) 11%, rgba(46, 38, 81, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0f1524", endColorstr="#2e2651", GradientType=1);
+}
+
+.bg-g2navy-500 {
+  background: rgb(33, 37, 41);
+  background: -moz-linear-gradient(0deg, rgba(33, 37, 41, 1) 0%, rgba(48, 38, 82, 1) 100%);
+  background: -webkit-linear-gradient(0deg, rgba(33, 37, 41, 1) 0%, rgba(48, 38, 82, 1) 100%);
+  background: linear-gradient(0deg, rgba(33, 37, 41, 1) 0%, rgba(48, 38, 82, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#212529", endColorstr="#302652", GradientType=1);
+}
+
+.bg-lgray-500 {
+  background-color: #E0E0E0;
+}
+
+.border-lgray-500 {
+  border-color: #BABABA;
+}
+
+.bg-navy-400 {
+  background-color: #0F1524;
+}
+
+.text-slime-500 {
+  color: #00DD16;
+}
+
+.text-sorange-500 {
+  color: #F7D51D;
+}
+
+.bg-sunflower-500 {
+  background-color: #F7D51D;
+}
+
+.border-sunflower-500 {
+  border-color: #E59400;
+}
+
+.bg-azul-500 {
+  background-color: #1F9EF0;
+  transition: all 0.369s ease;
+}
+
+.bg-azul-500:hover {
+  background-color: #0081d6;
+}
+
+.border-azul-600 {
+  border-color: #016CB5;
+}
+
+.inner-shadow-black {
+  box-shadow: inset 10px 4px 10px 10px black;
+}
+
+.explore-box:hover .box-details h3 {
+  color: #F7D51D;
+}
+
+.shadow-slime-500 {
+  text-shadow: 0 0 9px hsla(120, 100%, 25%, 0.839);
+  color: hsla(64%, 6%, 1);
+}
