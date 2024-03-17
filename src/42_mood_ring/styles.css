@@ -30,7 +30,8 @@ h1 {
   justify-content: center;
   width: 125px;
   height: 125px;
-  background-color: #3498db; /* Default color */
+  background-color: #3498db;
+  /* Default color */
   border-radius: 50%;
   position: absolute;
   top: 50%;
@@ -52,10 +53,12 @@ h1 {
     border-color: #ccc;
     transform: rotate3d(0, 1, 0, 0deg);
   }
+
   50% {
     border-color: #000;
     transform: rotate3d(0, 1, 0, 360deg);
   }
+
   100% {
     border-color: #ccc;
     transform: rotate3d(0, 1, 0, 720deg);
