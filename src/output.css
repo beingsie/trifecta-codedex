@@ -583,16 +583,8 @@ video {
   margin-right: auto;
 }
 
-.mb-2 {
-  margin-bottom: 0.5rem;
-}
-
 .flex {
   display: flex;
-}
-
-.grid {
-  display: grid;
 }
 
 .h-14 {
@@ -603,14 +595,6 @@ video {
   height: 18rem;
 }
 
-.h-full {
-  height: 100%;
-}
-
-.h-screen {
-  height: 100vh;
-}
-
 .w-14 {
   width: 3.5rem;
 }
@@ -619,27 +603,8 @@ video {
   width: 100%;
 }
 
-@keyframes ping {
-  75%, 100% {
-    transform: scale(2);
-    opacity: 0;
-  }
-}
-
-.animate-ping {
-  animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
-}
-
-.grid-cols-3 {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
 .flex-row {
   flex-direction: row;
-}
-
-.flex-row-reverse {
-  flex-direction: row-reverse;
 }
 
 .flex-col {
@@ -670,14 +635,6 @@ video {
   gap: 1rem;
 }
 
-.gap-1 {
-  gap: 0.25rem;
-}
-
-.gap-6 {
-  gap: 1.5rem;
-}
-
 .overflow-hidden {
   overflow: hidden;
 }
@@ -694,105 +651,12 @@ video {
   border-width: 1px;
 }
 
-.border-4 {
-  border-width: 4px;
-}
-
-.border-y {
-  border-top-width: 1px;
-  border-bottom-width: 1px;
-}
-
-.border-b-4 {
-  border-bottom-width: 4px;
-}
-
-.border-r-4 {
-  border-right-width: 4px;
-}
-
-.border-black {
-  --tw-border-opacity: 1;
-  border-color: rgb(0 0 0 / var(--tw-border-opacity));
-}
-
-.border-white\/\[0\.18\] {
-  border-color: rgb(255 255 255 / 0.18);
-}
-
 .bg-black\/\[0\.36\] {
   background-color: rgb(0 0 0 / 0.36);
 }
 
-.bg-\[url\(\'https\:\/\/cdn\.wallpapersafari\.com\/26\/68\/CK7JQZ\.jpg\'\)\] {
-  background-image: url('https://cdn.wallpapersafari.com/26/68/CK7JQZ.jpg');
-}
-
-.bg-\[url\(\'https\:\/\/e0\.pxfuel\.com\/wallpapers\/774\/739\/desktop-wallpaper-town-8-bit-resolution-artist-and-background-8-bit-anime\.jpg\'\)\] {
-  background-image: url('https://e0.pxfuel.com/wallpapers/774/739/desktop-wallpaper-town-8-bit-resolution-artist-and-background-8-bit-anime.jpg');
-}
-
-.bg-\[url\(\'https\:\/\/wallpapercave\.com\/wp\/wp4363081\.jpg\'\)\] {
-  background-image: url('https://wallpapercave.com/wp/wp4363081.jpg');
-}
-
-.bg-\[url\(\'https\:\/\/files\.oaiusercontent\.com\/file-YgFqbludFr7iBv26cTKRhu3t\?se\=2024-03-17T16\%3A42\%3A27Z\&sp\=r\&sv\=2021-08-06\&sr\=b\&rscc\=max-age\%3D31536000\%2C\%20immutable\&rscd\=attachment\%3B\%20filename\%3Dd4714cd9-0394-49e2-849f-4740115b91f7\.webp\&sig\=SVGES\/gO66sCzvz214S8gb3wwm83RtLCKfwAI0OQk0s\%3D\'\)\] {
-  background-image: url('https://files.oaiusercontent.com/file-YgFqbludFr7iBv26cTKRhu3t?se=2024-03-17T16%3A42%3A27Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3Dd4714cd9-0394-49e2-849f-4740115b91f7.webp&sig=SVGES/gO66sCzvz214S8gb3wwm83RtLCKfwAI0OQk0s%3D');
-}
-
-.bg-\[url\(\'https\:\/\/files\.oaiusercontent\.com\/file-cHuwoY7VxoJaB0pUfsLXmAQ7\?se\=2024-03-17T16\%3A43\%3A41Z\&sp\=r\&sv\=2021-08-06\&sr\=b\&rscc\=max-age\%3D31536000\%2C\%20immutable\&rscd\=attachment\%3B\%20filename\%3D2fa92e1f-c4c9-477c-8b31-88d66a082203\.webp\&sig\=FGmDytCTrFgWHtEYaiwz7FucZazL51xuDWeA\%2BgZYFLs\%3D\'\)\] {
-  background-image: url('https://files.oaiusercontent.com/file-cHuwoY7VxoJaB0pUfsLXmAQ7?se=2024-03-17T16%3A43%3A41Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D2fa92e1f-c4c9-477c-8b31-88d66a082203.webp&sig=FGmDytCTrFgWHtEYaiwz7FucZazL51xuDWeA%2BgZYFLs%3D');
-}
-
-.bg-\[url\(\'https\:\/\/files\.oaiusercontent\.com\/file-nUQpuwA1C5ifz4vvnzF70K2X\?se\=2024-03-17T21\%3A19\%3A23Z\&sp\=r\&sv\=2021-08-06\&sr\=b\&rscc\=max-age\%3D31536000\%2C\%20immutable\&rscd\=attachment\%3B\%20filename\%3D6de36a72-0aaa-46f2-b969-c6b099a2edca\.webp\&sig\=9BRbiKiekXOqJ\%2BdYsGxcrK0Fate78lRLByGIFxTVXuE\%3D\'\)\] {
-  background-image: url('https://files.oaiusercontent.com/file-nUQpuwA1C5ifz4vvnzF70K2X?se=2024-03-17T21%3A19%3A23Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D6de36a72-0aaa-46f2-b969-c6b099a2edca.webp&sig=9BRbiKiekXOqJ%2BdYsGxcrK0Fate78lRLByGIFxTVXuE%3D');
-}
-
-.bg-\[url\(\'https\:\/\/files\.oaiusercontent\.com\/file-3TkQuGzF3XzXWbPbVNmwrHUS\?se\=2024-03-17T21\%3A21\%3A31Z\&sp\=r\&sv\=2021-08-06\&sr\=b\&rscc\=max-age\%3D31536000\%2C\%20immutable\&rscd\=attachment\%3B\%20filename\%3D27b06da1-643c-4028-96c0-7325fddbebea\.webp\&sig\=fKrqHuR\%2BDk7bi0L7ZR1w1EEjKtmYGo0GBRKOOKlOWJQ\%3D\'\)\] {
-  background-image: url('https://files.oaiusercontent.com/file-3TkQuGzF3XzXWbPbVNmwrHUS?se=2024-03-17T21%3A21%3A31Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D27b06da1-643c-4028-96c0-7325fddbebea.webp&sig=fKrqHuR%2BDk7bi0L7ZR1w1EEjKtmYGo0GBRKOOKlOWJQ%3D');
-}
-
-.bg-\[url\(\'https\:\/\/files\.oaiusercontent\.com\/file-vwAxAaXb5kffRJY6SIw4bVjp\?se\=2024-03-17T21\%3A27\%3A44Z\&sp\=r\&sv\=2021-08-06\&sr\=b\&rscc\=max-age\%3D31536000\%2C\%20immutable\&rscd\=attachment\%3B\%20filename\%3Deeac5a79-1694-4713-b970-328f95ac5c3f\.webp\&sig\=ppHHimH2uw9MdhWrsmdO3zTGAJy4YZULEEdC65ucYUs\%3D\'\)\] {
-  background-image: url('https://files.oaiusercontent.com/file-vwAxAaXb5kffRJY6SIw4bVjp?se=2024-03-17T21%3A27%3A44Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3Deeac5a79-1694-4713-b970-328f95ac5c3f.webp&sig=ppHHimH2uw9MdhWrsmdO3zTGAJy4YZULEEdC65ucYUs%3D');
-}
-
-.bg-\[url\(\'https\:\/\/files\.oaiusercontent\.com\/file-FaRGDm3OSvNYS2cfJ6QWIi9M\?se\=2024-03-17T21\%3A29\%3A42Z\&sp\=r\&sv\=2021-08-06\&sr\=b\&rscc\=max-age\%3D31536000\%2C\%20immutable\&rscd\=attachment\%3B\%20filename\%3Dde485be1-9ec4-45ac-b947-7ee2d1b7dcfa\.webp\&sig\=77PsQQYI55nOY1v\/K6XzUlIFk8DDq9tJaAtNSnBk4AA\%3D\'\)\] {
-  background-image: url('https://files.oaiusercontent.com/file-FaRGDm3OSvNYS2cfJ6QWIi9M?se=2024-03-17T21%3A29%3A42Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3Dde485be1-9ec4-45ac-b947-7ee2d1b7dcfa.webp&sig=77PsQQYI55nOY1v/K6XzUlIFk8DDq9tJaAtNSnBk4AA%3D');
-}
-
-.bg-\[url\(\'https\:\/\/files\.oaiusercontent\.com\/file-mTpYDemlVXs5AhI7Xj79HNj1\?se\=2024-03-17T21\%3A30\%3A31Z\&sp\=r\&sv\=2021-08-06\&sr\=b\&rscc\=max-age\%3D31536000\%2C\%20immutable\&rscd\=attachment\%3B\%20filename\%3Db8df9121-1dc6-423c-bb24-bb1d2ab71e5b\.webp\&sig\=bgeUaOKOTkOnnIOVW0AB5Lnvv7\%2BZblXidjT7Q5Moi0Y\%3D\'\)\] {
-  background-image: url('https://files.oaiusercontent.com/file-mTpYDemlVXs5AhI7Xj79HNj1?se=2024-03-17T21%3A30%3A31Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3Db8df9121-1dc6-423c-bb24-bb1d2ab71e5b.webp&sig=bgeUaOKOTkOnnIOVW0AB5Lnvv7%2BZblXidjT7Q5Moi0Y%3D');
-}
-
-.bg-cover {
-  background-size: cover;
-}
-
-.bg-center {
-  background-position: center;
-}
-
 .p-4 {
   padding: 1rem;
-}
-
-.p-2 {
-  padding: 0.5rem;
-}
-
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
 }
 
 .px-4 {
@@ -800,47 +664,24 @@ video {
   padding-right: 1rem;
 }
 
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
-.py-2 {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
-
-.pb-16 {
-  padding-bottom: 4rem;
-}
-
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
-}
-
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
-.font-medium {
-  font-weight: 500;
-}
-
-.text-black {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .text-white {
@@ -864,28 +705,10 @@ video {
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
 }
 
-.backdrop-blur-md {
-  --tw-backdrop-blur: blur(12px);
-  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-}
-
-.backdrop-blur-lg {
-  --tw-backdrop-blur: blur(16px);
-  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-}
-
 .backdrop-blur-xl {
   --tw-backdrop-blur: blur(24px);
   -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
           backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-}
-
-.hover\:scale-75:hover {
-  --tw-scale-x: .75;
-  --tw-scale-y: .75;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .hover\:scale-95:hover {
@@ -894,50 +717,7 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-@keyframes bounce {
-  0%, 100% {
-    transform: translateY(-25%);
-    animation-timing-function: cubic-bezier(0.8,0,1,1);
-  }
-
-  50% {
-    transform: none;
-    animation-timing-function: cubic-bezier(0,0,0.2,1);
-  }
-}
-
-.hover\:animate-bounce:hover {
-  animation: bounce 1s infinite;
-}
-
-@keyframes ping {
-  75%, 100% {
-    transform: scale(2);
-    opacity: 0;
-  }
-}
-
-.hover\:animate-ping:hover {
-  animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
-}
-
-.hover\:backdrop-blur-xl:hover {
-  --tw-backdrop-blur: blur(24px);
-  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-}
-
-@media (min-width: 640px) {
-  .sm\:flex-col {
-    flex-direction: column;
-  }
-}
-
 @media (min-width: 768px) {
-  .md\:flex-row {
-    flex-direction: row;
-  }
-
   .md\:flex-col {
     flex-direction: column;
   }
@@ -950,10 +730,6 @@ video {
 @media (min-width: 1024px) {
   .lg\:h-screen {
     height: 100vh;
-  }
-
-  .lg\:h-full {
-    height: 100%;
   }
 
   .lg\:flex-row {

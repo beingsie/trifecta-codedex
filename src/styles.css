@@ -12,6 +12,27 @@ body {
   perspective: 340px;
 }
 
+.container .card:nth-child(1) {
+  background: url('https://github.com/beingsie/trifecta-codedex/blob/main/src/mood-ring-bg.jpeg?raw=true');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.container .card:nth-child(2) {
+  background: url('https://github.com/beingsie/trifecta-codedex/blob/main/src/quote-generator-bg.jpeg?raw=true');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.container .card:nth-child(3) {
+  background: url('https://github.com/beingsie/trifecta-codedex/blob/main/src/meme-generator-bg.jpeg?raw=true');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
 /* Colors */
 .bg-navy-500 {
   background: rgb(15, 21, 36);
