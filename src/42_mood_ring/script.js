@@ -1,43 +1,52 @@
 // Select mood button
-const moodBtn = document.getElementById("moodBtn"); // Extra 😎
+const moodBtn = document.getElementById("moodBtn");// Extra 😎
+
+// User input
+const userInput = document.getElementById("userInput");
+
+let emotionsAnger = ["mad", "upset", "pissed off", "pissed", "furious", "irritated", "enraged", "outraged", "infuriated", "livid", "steaming",];
+let emotionsHappiness = ["happy", "joy", "cheerful", "delighted", "overjoyed", "ecstatic", "thrilled", "elated", "content", "grateful",];
+let emotionsSadness = ["sad", "depressed", "blue", "down", "heartbroken", "miserable", "gloomy", "sorrowful", "despondent", "disheartened",];
+let emotionsDisgust = ["disgusted", "repulsed", "sicked", "appalled", "nauseated", "horrified", "disdainful", "abhorrent", "offended", "repelled",];
+let emotionsFear = ["afraid", "terrified", "scared", "panicked", "anxious", "nervous", "tense", "uneasy", "worried", "petrified",];
+let emotionsExcitement = ["excited", "eager", "enthusiastic", "thrilled", "amped", "hyped", "stoked", "aroused", "ebullient", "animated",];
 
 // Function onClick
-function changeMood() {
-	// Extra 😎
-	// Select mood ring border
-	let moodRingBorder = document.getElementById("moodRing"); // Extra 😎
-	// Toggle spin class (animation)
-	moodRingBorder.classList.add("spin"); // Extra 😎
+function changeMood() {// Extra 😎
+  const userInputValue = userInput.value.toLowerCase();
 
-	moodRingBorder.addEventListener("animationend", () => {
-		// Extra 😎
-		moodRingBorder.classList.remove("spin");
-	});
+  // Select mood ring border
+  let moodRingBorder = document.getElementById("moodRing");// Extra 😎
+  // Select flower pedal
+  const flowerPedal = document.getElementById("pedal");
+  // Toggle spin class (animation)
+  moodRingBorder.classList.add("spin");// Extra 😎
 
-	// Create a variable that selects the element with the id of "stone"
-	let stone = document.getElementById("stone");
-	// Generate a random number between 1 and 9
-	let randomNumber = Math.floor(Math.random() * 10) + 1;
+  moodRingBorder.addEventListener('animationend', () => {// Extra 😎
+    moodRingBorder.classList.remove("spin");
+  });
 
-	// Change the .style.backgroundColor property
-	// according to the value of randomNumber
-	if (randomNumber === 1) {
-		stone.style.backgroundColor = "red";
-	} else if (randomNumber === 2) {
-		stone.style.backgroundColor = "orange";
-	} else if (randomNumber === 3) {
-		stone.style.backgroundColor = "yellow";
-	} else if (randomNumber === 4) {
-		stone.style.backgroundColor = "green";
-	} else if (randomNumber === 5) {
-		stone.style.backgroundColor = "blue";
-	} else if (randomNumber === 6) {
-		stone.style.backgroundColor = "#4169e1";
-	} else if (randomNumber === 7) {
-		stone.style.backgroundColor = "#00008b";
-	} else if (randomNumber === 8) {
-		stone.style.backgroundColor = "purple";
-	} else {
-		stone.style.backgroundColor = "black";
-	}
+  // Create a variable that selects the element with the id of "stone"
+  let stone = document.querySelector("body");
+
+  // Change the .style.backgroundColor property
+  // according to the value of userInputValue
+  if (userInputValue === "angry") {
+    stone.style.backgroundColor = "#240505";
+    flowerPedal.src = "https://raw.githubusercontent.com/beingsie/trifecta-codedex/e575ae0d299bb719c43b0fdd4b855003a60aa8d5/src/42_mood_ring/angry-face.svg";
+  } else if (userInputValue === "disgust") {
+    stone.style.backgroundColor = "#05240D";
+    flowerPedal.src = "https://raw.githubusercontent.com/beingsie/trifecta-codedex/e575ae0d299bb719c43b0fdd4b855003a60aa8d5/src/42_mood_ring/disgust-face.svg";
+  } else if (userInputValue === "happy") {
+    stone.style.backgroundColor = "#291D06";
+    flowerPedal.src = "https://raw.githubusercontent.com/beingsie/trifecta-codedex/e575ae0d299bb719c43b0fdd4b855003a60aa8d5/src/42_mood_ring/happy-face.svg";
+  } else if (userInputValue === "fear") {
+    stone.style.backgroundColor = "#1E0524";
+    flowerPedal.src = "https://raw.githubusercontent.com/beingsie/trifecta-codedex/e575ae0d299bb719c43b0fdd4b855003a60aa8d5/src/42_mood_ring/fear-face.svg";
+  } else if (userInputValue === "sad") {
+    stone.style.backgroundColor = "#051824";
+    flowerPedal.src = "https://raw.githubusercontent.com/beingsie/trifecta-codedex/e575ae0d299bb719c43b0fdd4b855003a60aa8d5/src/42_mood_ring/sad-face.svg";
+  } else {
+    alert("Enter one of the 5 emotions.")
+  }
 }
