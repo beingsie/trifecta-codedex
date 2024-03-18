@@ -10,7 +10,12 @@
 
 html,
 body {
+  width: 100%;
   height: 100%;
+}
+
+.wrapp {
+  padding: 24px;
 }
 
 body {
@@ -18,7 +23,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 32px;
   overflow: hidden;
   background: url("https://img.freepik.com/free-vector/abstract-maze-design-pattern-background-black-white_1048-15662.jpg") repeat;
   background-blend-mode: screen;
@@ -36,7 +40,7 @@ h2 {
 }
 
 #wrapper {
-  width: 400px;
+  max-width: 400px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -45,7 +49,7 @@ h2 {
   border: 2px solid rgba(0, 0, 0, 0.06);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.12);
   border-radius: 24px;
-  padding: 16px;
+  padding: 16px 24px;
   text-align: center;
   position: relative;
   z-index: 1;
@@ -166,11 +170,12 @@ button p {
 @media (max-width: 1024px){
   .wrapp {
     flex-direction: column-reverse;
+    padding: 0 24px;
   }
   .sunburst {
-    width: 300px;
+    width: 200px;
   }
   .meditator {
-    max-width: 200px;
+    max-width: 150px;
   }
 }
