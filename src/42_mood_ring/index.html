@@ -2,16 +2,20 @@
 <html lang="en">
 
 <head>
-  
+
   <title>Mood Ring</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
   <div class="wrapper">
-    <h1>How Are You Feeling?</h1>
-    <input id="userInput" type="text" placeholder="How do yo feel today?">
-    <button type="submit" onClick="changeMood()" id="moodBtn">Change Mood</button>
+    <div class="content-wrapper">
+      <h1 id="heading">Mood Detector</h1>
+      <div class="btn-wrapper">
+        <input id="userInput" type="text" placeholder="How do yo feel today?">
+        <button type="submit" id="submitBtn">Submit</button>
+      </div>
+    </div>
     <div class="mood-ring" id="moodRing">
       <div class="stone" id="stone">
         <img id="pedal" src="https://raw.githubusercontent.com/beingsie/trifecta-codedex/4a7080f59af7ee7fb351fb288fba259c6372195b/src/42_mood_ring/pedal.svg" />
