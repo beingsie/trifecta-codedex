@@ -595,14 +595,6 @@ video {
   height: 9rem;
 }
 
-.h-8 {
-  height: 2rem;
-}
-
-.h-16 {
-  height: 4rem;
-}
-
 .w-14 {
   width: 3.5rem;
 }
@@ -677,24 +669,14 @@ video {
   padding-right: 1.5rem;
 }
 
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
-
-.py-32 {
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-}
-
-.py-12 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
 }
 
 .text-lg {
@@ -746,20 +728,12 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .lg\:h-8 {
-    height: 2rem;
+  .lg\:h-72 {
+    height: 18rem;
   }
 
   .lg\:h-screen {
     height: 100vh;
-  }
-
-  .lg\:h-36 {
-    height: 9rem;
-  }
-
-  .lg\:h-72 {
-    height: 18rem;
   }
 
   .lg\:flex-row {
